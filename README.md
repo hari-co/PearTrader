@@ -86,7 +86,7 @@ By integrating these concepts into an accessible recommendation tool, we empower
 - **Graph Construction**:  
   We use the **networkx** package to represent stock relationships as an undirected graph G = (V, E).  
   - Each stock is a **node** in V.  
-  - An **edge** between two stocks is added if their correlation coefficient exceeds a predefined threshold (see **Limitations** section).  
+  - An **edge** between two stocks is added if their correlation coefficient exceeds a predefined threshold.  
   - Implemented in the analyze_stocks() function, with edge weights corresponding to correlation values.  
 
 - **Community Detection**:  
